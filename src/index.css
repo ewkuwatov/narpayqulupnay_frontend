@@ -15,11 +15,11 @@
 
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
-    url('./assets/Texture_Berry_Strawberry_Closeup_565812_2560x1440.jpg');
+    url('./assets/85af628d135e37f471578a472a5dc7fc.jpg');
 
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  
 }
 
 .container {

@@ -1,7 +1,6 @@
 /* Фоновая картинка секции */
 .header__info {
   width: 100%;
-  margin-top: -10px;
   background-image: url('../assets/f_67cdf4d38e720.jpg');
   background-size: cover;
   background-repeat: no-repeat;
