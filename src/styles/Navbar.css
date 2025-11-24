@@ -1,0 +1,52 @@
+
+
+.navbar {
+  height: 105px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  border-radius: 12px;
+  gap: 25px;
+  padding: 0 20px;
+  -webkit-box-shadow: 1px 16px 24px 4px rgba(34, 60, 80, 0.49);
+  -moz-box-shadow: 1px 16px 24px 4px rgba(34, 60, 80, 0.49);
+  box-shadow: 1px 16px 24px 4px rgba(34, 60, 80, 0.49);
+
+  /* 🧊 Glassmorphism */
+  background: rgba(255, 255, 255, 0.227); /* легко-прозрачный слой */
+  backdrop-filter: blur(12px) saturate(160%); /* размытие + насыщенность */
+  -webkit-backdrop-filter: blur(12px) saturate(160%);
+}
+
+.navbar__menu,
+.navbar__info {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar__item {
+  color: var(--white-cream);
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.navbar__item:hover {
+  opacity: 0.8;
+}
+
+.navbar__logo {
+  border-radius: 50%;
+}
+
+.navbar__logo img {
+  width: 300px;
+  border-radius: 50%;
+  background-color: var(--green-dark);
+  object-fit: contain;
+}

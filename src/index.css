@@ -1,0 +1,29 @@
+:root {
+  --green-dark: #007b4b;
+  --green-light: #7ccc6c;
+  --yellow: #dbe442;
+  --red: #e03c31;
+  --white-cream: #f1f2e4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url('./assets/Texture_Berry_Strawberry_Closeup_565812_2560x1440.jpg');
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}

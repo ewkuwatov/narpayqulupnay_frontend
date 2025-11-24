@@ -1,0 +1,54 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  padding: 50px 60px;
+
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+
+  color: var(--white-cream);
+}
+
+/* ЛОГО */
+.footer__logo {
+  width: 180px;
+  margin-top: -30px;
+}
+
+.footer__logo img {
+  width: 100%;
+  height: auto;
+}
+
+/* Базовый блок */
+.footer__block {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 240px;
+}
+
+/* Заголовки */
+.footer__title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--green-light);
+}
+
+/* Текст */
+.footer__text {
+  font-size: 18px;
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Контактные блоки */
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
